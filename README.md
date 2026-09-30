@@ -53,9 +53,9 @@ The repository is modularized to separate reusable business logic from explorato
 │   ├── environment.py        # Environmental & UNMA weather simulators
 │   └── finance.py            # Financial & Bank of Uganda economic models
 ├── notebooks/                # Production Jupyter Notebooks
-│   ├── project1_population.ipynb
-│   ├── project2_weather.ipynb
-│   └── project3_finance.ipynb
+│   ├── project_population.ipynb
+│   ├── project_weather.ipynb
+│   └── project_finance.ipynb
 ├── tests/                    # Pytest unit testing suite
 │   ├── test_population.py
 │   ├── test_environment.py
@@ -90,7 +90,7 @@ Execute the following command from the root directory to run all unit tests:
 pytest
 ```
 
-Our testing patterns validate:
+My testing patterns validate:
 
 1. **Happy Path:** Expected operations given normal Ugandan environmental or economic parameters.
 2. **Boundary Constraints:** Expected behavior under values such as `0` or near-infinite scaling limits.
